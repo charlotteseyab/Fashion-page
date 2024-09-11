@@ -182,6 +182,8 @@ section{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    background-color: #F3F2EE;
+    height: 100vh;
 }
 
 .countdown-items{
@@ -189,7 +191,7 @@ section{
 }
 
 #img5{
-    object-fit: fill;
+    object-fit: contain;
     height: 400px;
     width: 400px;
 }
@@ -199,3 +201,84 @@ section{
     padding: 30px;
 }
 
+.section{
+  padding: 100px; 
+  display: flex;
+  column-gap: 50px; 
+  justify-content: center;
+  align-items: center;
+  row-gap: 70px;
+}
+
+.contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+}
+
+.images{
+    object-fit: fill;
+    overflow: hidden;
+    height: 216px;
+    width: 241px;
+    white-space: wrap;
+    
+}
+
+.last{
+    padding: 100px;
+}
+
+.sect-items h2{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.last-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.last-sec-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.last-sec img{
+    object-fit: contain;
+    height: 270px;
+    width: 360px;
+    column-gap: 20px;
+    padding: 15px;
+   
+}
+
+.last-sec h5{
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.last-sec h3{
+    padding-bottom: 30px;
+}
+
+.last-sec span{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.last-sec p{
+    padding-left: 70px;
+}
+
+.last-sec h6{
+    padding-left: 70px;
+}
