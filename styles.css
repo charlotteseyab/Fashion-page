@@ -44,6 +44,7 @@ section {
   position: relative;
 }
 
+
 .text {
   position: absolute;
   top: 200px;
@@ -58,6 +59,7 @@ section {
 
 img {
   width: 100vw;
+  object-fit: cover;
 }
 
 .text-red {
@@ -115,13 +117,16 @@ img {
   grid-column: 7 / 9;
 }
 
+section{
+    /* padding: 100px; */
+}
 .span1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 20px;
-    padding: 50px;
+    font-size: 30px;
+    /* padding: 20px; */
 }
 
 #gallery{
@@ -129,12 +134,12 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
     gap: 10px;
-    
+    /* padding: 30px; */
 }
 
 .gallery-item{
     width: 100%;
-    height: 500px;
+    height: 400px;
     position: relative;
     overflow: hidden;
 }
@@ -143,7 +148,7 @@ img {
     width: 100%;
     object-fit: contain;
     height: 100%;
-    padding: 20px;
+    /* padding: 10px; */
 }
 
 .gallery-overlay{
