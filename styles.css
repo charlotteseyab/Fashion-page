@@ -189,7 +189,7 @@ section{
 }
 
 #img5{
-    object-fit: fillg;
+    object-fit: fill;
     height: 400px;
     width: 400px;
 }
