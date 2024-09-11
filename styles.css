@@ -245,8 +245,7 @@ section{
 .last-sec-img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-
+    
 }
 
 .last-sec img{
@@ -255,7 +254,7 @@ section{
     width: 360px;
     column-gap: 20px;
     padding: 15px;
-   
+    
 }
 
 .last-sec h5{
@@ -272,13 +271,86 @@ section{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 70px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 .last-sec p{
-    padding-left: 70px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 .last-sec h6{
-    padding-left: 70px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
+
+.class{
+    height: 30px; 
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 20px;
+    padding: 50px;
+    row-gap: 20px;
+}
+
+.footer-img{
+    object-fit: contain;
+    height: 90%;
+    width: 90%;
+}
+
+.foot{
+    background-color: #111111 ;
+    color: white;
+    padding: 10px;
+    height: 350px;
+    
+}
+
+.foot-itms{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px ;
+    /* padding-top: 10px; */
+    column-gap: 50px;
+}
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.foot2 h4{
+    padding-bottom: 20px;  
+}
+
+.foot2 p{
+    padding-bottom: 70px;
+}
+
+input{
+    padding: 10px;
+    background-color: #111111;
+    border: 0px;
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
